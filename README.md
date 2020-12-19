@@ -5,11 +5,10 @@ This is Capstone Project for Udacity Data Scientist Nano Degree Program.
 This Capstone Project is done as part of final delivarable to Udacities Data Scientist Nano Degree Program. Project choosen for this is the "Starbucks Project". This is a  classification problem which can help Starbucks to optimize app offers for their customers. it very crucial to identify right customers and send them just the write offer to maximize the customer value for company and at the same time provide the offer that best suits the customer. A customer will react to an offer based on various individual traits. Here I will analyze the dataset provided by Starbucks and try to answer few problems using model and visualization.
 
 ## Problem Statement:
-I want to answer below two questions in this analysis:
-1. What offers to send a customer, so that the chances of offer getting completed is high?
-  I will address this problem with a model. The model will be able to predict that if an offer is sent to a customers will it be completed or not. (Definition of complete is shared below).
-2. Set of heuristics that determine what offer should be sent to group of customers?
-  This problem will be address using visualizations and exploratory analysis.
+I want to answer below three questions in this analysis:
+1. Buying pattern of new app customers vs old app customers? Find the relationship, if any, between amount of purchases made by customers with the amount of time they have been a customer for Starbucks?
+2. Demographic description of customers, 1. Who spend the most , 2. who like BOGO offers most, 3.Which of the four BOGO offers is more famous?
+3. A machine learning model to predict which Offers sent to customers will be successfully completed.
   
 ## Evaluation Metrics
 For model evaluaiton, I will be using f1-score metric to assess models performance. We will also measure accuracy of the model on test data to see how well our model predicts if the offer is successfull or not.
