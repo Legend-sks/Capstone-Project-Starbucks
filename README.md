@@ -43,6 +43,8 @@ reward: (numeric) money gained from "offer completed"
 time: (numeric) hours after start of test
 
 
+More details about project finding can be read from the blogpost : https://shashik19.medium.com/udacity-capstone-project-starbucks-coffee-b136aa636bb6
+
 
 
 
