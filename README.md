@@ -24,6 +24,11 @@ I want to answer below three questions in this analysis:
 9. from sklearn.preprocessing import StandardScaler, normalize, MinMaxScaler
 10. from sklearn.metrics import confusion_matrix,accuracy_score, classification_report,f1_score
 11. from sklearn.model_selection import GridSearchCV
+12.from sklearn.preprocessing import StandardScaler
+13.from sklearn import preprocessing
+14.from sklearn.linear_model import LogisticRegression
+15. from sklearn.ensemble import AdaBoostClassifier
+
 
 ## Evaluation Metrics
 For model evaluaiton, I will be using f1-score metric to assess models performance. We will also measure accuracy of the model on test data to see how well our model predicts if the offer is successfull or not.
@@ -60,8 +65,11 @@ time: (numeric) hours after start of test
 ## Solution Summary
 
 In this project I tried to answer three questions. Two of them were answered using data analysis and visualization and one using a machine learning model. At the start of the project the data set looked huge but at the end it proved to be a bit small. The model i created will benefit from more data around customer purchase behaviors and offer influence. Also we can use some more parameter/variables about the customer and the transactions.
-Data cleaning part was a bit tricky as we have very less information to link the various events. Its sad that we I was not able to sue the transaction data and understand the influence of informational offers.
-There is some scope of improvement here, we can use a more sophisticated model like Adaboost or XGboost for this classification problem. I believe it will give much better accuracy and F1 scores. Also I have created a offer_view flag which I did not use in any analysis we can use this flag and try to link it with transactions event rows to get some idea on influence of informational offers.
+
+I created 2 models, one using Logistics regression and one using Random forrest classificatoin and found that the Random forrest has better accuracy and F1 Score. Even after tuning Randon forrest was better model, I checked the robustness of my model using K-Fold cross validation.
+
+Data cleaning part was a bit tricky as we have very less information to link the various events. Its sad that we I was not able to use the transaction data and understand the influence of informational offers.
+There is some scope of improvement here, we can use a more sophisticated model like Adaboost or XGboost for this classification problem. I believe it will give  better accuracy and F1 scores. Also I have created a offer_view flag which I did not use in any analysis we can use this flag and try to link it with transactions event rows to get some idea on influence of informational offers.
 
 More details about project finding can be read from the blogpost : https://shashik19.medium.com/udacity-capstone-project-starbucks-coffee-b136aa636bb6
 
