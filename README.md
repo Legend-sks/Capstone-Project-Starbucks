@@ -1,6 +1,9 @@
 # Capstone-Project-Starbucks
 This is Capstone Project for Udacity Data Scientist Nano Degree Program. 
 
+## Acknowledgements
+Data for this project was provided by Udacity and Starbucks. I have used sevaral method leanrt during my Nano-degree course, I thank all my tutors from the learning videos for creating a well structured learning program.
+
 ## Project Overview
 This Capstone Project is done as part of final delivarable to Udacities Data Scientist Nano Degree Program. Project choosen for this is the "Starbucks Project". This is a  classification problem which can help Starbucks to optimize app offers for their customers. it very crucial to identify right customers and send them just the write offer to maximize the customer value for company and at the same time provide the offer that best suits the customer. A customer will react to an offer based on various individual traits. Here I will analyze the dataset provided by Starbucks and try to answer few problems using model and visualization.
 
@@ -73,8 +76,6 @@ There is some scope of improvement here, we can use a more sophisticated model l
 
 More details about project finding can be read from the blogpost : https://shashik19.medium.com/udacity-capstone-project-starbucks-coffee-b136aa636bb6
 
-## Acknowledgements
-Data for this project was provided by Udacity and Starbucks. I have used sevaral method leanrt during my Nano-degree course, I thank all my tutors from the learning videos.
 
 
 
