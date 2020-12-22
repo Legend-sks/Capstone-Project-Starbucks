@@ -73,7 +73,8 @@ There is some scope of improvement here, we can use a more sophisticated model l
 
 More details about project finding can be read from the blogpost : https://shashik19.medium.com/udacity-capstone-project-starbucks-coffee-b136aa636bb6
 
-
+## Acknowledgements
+Data for this project was provided by Udacity and Starbucks. I have used sevaral method leanrt during my Nano-degree course, I thank all my tutors from the learning videos.
 
 
 
